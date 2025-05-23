@@ -1,5 +1,5 @@
 import Header from "@/app/components/header/header";
-import PortfolioSectionAdmin from "@/app/components/portfoliosectionadmin/page";
+import PortfolioSectionAdmin from "@/app/components/portfoliosectionadmin/portfoliosectionadmin";
 import SidebarAdmin from "@/app/components/sidebar/sidebar";
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
