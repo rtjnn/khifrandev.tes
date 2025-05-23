@@ -1,6 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import supabase from "@/libs/supabase";
+import { getSupabase } from '@/libs/supabase'
+
+const supabase = getSupabase()
+
 import Image from "next/image";
 import { FaPlusCircle, FaSpinner } from "react-icons/fa";
 

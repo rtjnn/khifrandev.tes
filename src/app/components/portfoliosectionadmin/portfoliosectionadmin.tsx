@@ -1,7 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import supabase from "@/libs/supabase";
+import { getSupabase } from '@/libs/supabase'
+
+const supabase = getSupabase()
+
 import { FaSearch } from "react-icons/fa";
 
 type PortfolioItem = {

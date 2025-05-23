@@ -2,7 +2,10 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import supabase from "@/libs/supabase";
+import { getSupabase } from '@/libs/supabase'
+
+const supabase = getSupabase()
+
 import { useRouter } from "next/navigation";
 
 const LoginPage = () => {

@@ -1,7 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import supabase from "@/libs/supabase";
+import { getSupabase } from '@/libs/supabase'
+
+const supabase = getSupabase()
+
 import { useRouter } from "next/navigation";
 
 import { FaCircle, FaSearch } from "react-icons/fa";

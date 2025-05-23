@@ -4,7 +4,10 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import supabase from "@/libs/supabase";
+import { getSupabase } from '@/libs/supabase'
+
+const supabase = getSupabase()
+
 
 type PortfolioItem = {
   id: number;
